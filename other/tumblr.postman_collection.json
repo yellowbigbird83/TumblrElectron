@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "ab6a2b0c-a4f1-4463-a24c-6678183770c1",
+		"name": "tumblr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get dashboard.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.tumblr.com/dashboard",
+					"protocol": "https",
+					"host": [
+						"www",
+						"tumblr",
+						"com"
+					],
+					"path": [
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
